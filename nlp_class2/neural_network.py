@@ -14,7 +14,7 @@ from datetime import datetime
 
 import os
 import sys
-sys.path.append(os.path.abspath('..'))
+sys.path.append(os.path.abspath('.'))
 from rnn_class.util import get_wikipedia_data
 from rnn_class.brown import get_sentences_with_word2idx_limit_vocab, get_sentences_with_word2idx
 
